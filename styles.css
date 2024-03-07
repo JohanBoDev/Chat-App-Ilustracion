@@ -221,7 +221,7 @@ p.left{
     width: 40%;
 }
 
-p.right{
+.right p{
         font-size: .2rem;
         padding: 5px;
         color: hsla(276, 55%, 52%, 0.826);
