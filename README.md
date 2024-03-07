@@ -5,7 +5,7 @@ Este proyecto fue creado como parte de un desafío de frontend mentor, donde se 
 Este proyecto consiste en una ilustración de una aplicación de chat creada como respuesta a un desafío de frontend mentor. El diseño se ha elaborado exclusivamente utilizando hojas de estilo en cascada (CSS).
 
 # Vista Previa
-<img src="">
+<img src="https://github.com/JohanBoDev/Chat-App-Ilustracion/blob/main/Captura%20de%20pantalla%20(30).png?raw=true">
 
 # Contribuciones
 Frontend-Mentor url(https://www.frontendmentor.io/home)
