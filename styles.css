@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    
+}
+body{
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.797);
+}
+
+html{
+    height: 100%;
+}
+
+
+    :root{
+        --pale-violet: hsl(276, 100%, 81%);
+        --moderate-violet: hsl(276, 55%, 52%);
+        --desaturated-dark-violet: hsl(271, 15%, 43%);
+        --grayish-blue: hsl(206, 6%, 79%);
+        --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+        --dark-grayish-violet: hsl(270, 7%, 64%);
+    }
+
+
+    .container{
+        margin: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+   .fondo-purple{
+    position: absolute;
+    width: 500px;
+    height: 90vh;
+    background: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    top: 0;
+    left: -120px;
+    border-radius: 0 0 50% 50%;
+   }
+
+   .fondo-white{
+    position: absolute;
+    width: 500px;
+    height: 90vh;
+    background: rgba(255, 255, 255, 0.811);
+    bottom: 0;
+    right: 0;
+    border-radius: 50% 50% 0 0;
+   }
+
+
+   .celular{
+    width: 200px;
+    height: 390px;
+    background: hsl(270, 20%, 96%);
+    top: 100px;
+    position: relative;
+    left: 330px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+   }
+
+   .contenido{
+    margin: 4px;
+    width: 94%;
+    height: 97%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: #80808021;
+    border-radius: 20px;
+   }
+
+   /*header cell*/
+
+   .barra-noti{
+    width: 80px;
+    height: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    z-index: 1;
+}
+
+   .header-cel{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgb(233, 66, 255), rgb(136, 56, 255));
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    h3{
+        color: white;
+        margin-left: 7px;
+        font-size: .5rem;
+    
+    }
+
+
+    .avatar{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 1px solid white;
+        grid-row: 1/-3;
+    }
+
+    p{
+       font-size: .4rem;
+         color: rgba(255, 255, 255, 0.726);
+    }
+   }
+
+   .icon{
+    width: 13px;
+    height: 13px;
+    margin-right: 0;
+    margin-bottom: 3px;
+   }
+
+   .header-grid{
+    right: 10px;
+    position: relative;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    justify-items: center;
+
+    p{
+        grid-column: 2/3;
+    }
+
+   }
+
+
+   /*cuerpo cel*/
+
+ .cuerpo{
+    display: flex;
+    flex-direction: column;
+ }
+
+p.left{
+    font-size: .4rem;
+    padding: 5px;
+    color: hsla(276, 55%, 52%, 0.826);
+}
+
+  .left{
+    margin:10px 0 0 10px;
+    box-shadow: 2px 2px 3px 0 rgba(138, 87, 154, 0.2);
+}
+    
+
+
+.back{ 
+    border-radius: 5px;
+    width: 60%;
+    height: 25px;
+    background-color: hsla(276, 55%, 52%, 0.21); 
+}
+
+.xl{
+    height: 30px;
+}
+
+.img-dog{
+    
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    justify-content: flex-end;
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+}
+
+.float{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.right{
+    border-radius: 5px;
+    width: 60%;
+    height: 25px;
+    background-color: hsl(0, 0%, 100%); 
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.xs{
+    height: 20px;
+    width: 40%;
+}
+
+p.right{
+        font-size: .4rem;
+        padding: 5px;
+        color: hsla(276, 55%, 52%, 0.826);
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 0;
+    width: 70%;
+    height: 25px;
+    background: linear-gradient(to right, hsla(293, 100%, 63%, 0.89), hsl(264, 100%, 61%));
+    text-align: start;
+
+    .circle{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid hsla(0, 0%, 100%, 0.514);
+        margin-left: 10px;
+    
+    }
+
+    p{
+        font-size: .4rem;
+        padding: 5px 0;
+        color: hsla(0, 0%, 100%, 0.826);
+        text-align: start;
+    }
+
+    span{
+        font-size: .6rem;
+        padding: 5px;
+        color: hsla(0, 0%, 100%, 0.826);
+        font-weight: 800;
+    }
+    
+}
+
+.search-input{
+    bottom: 10px;
+    z-index: 10;
+    width: 170px;
+    left: 10px;
+    border-radius: 20px;
+    border: none;
+    height: 28px;
+    position: absolute;
+    padding-left: 15px;
+}
+
+.flecha-input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    z-index: 10;
+    color: white;
+    font-weight: 600;
+
+    background-color: hsl(276, 59%, 24%);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.search-input::placeholder {
+    color: #8d8d8d;
+    font-size: .5rem;
+  }
+
+  .search-input::-moz-placeholder {
+    color: #8d8d8d;
+    font-size: .5rem;
+  }
+
+  .search-input:focus {
+    outline: none;
+  }
+
+
+    .texto{
+        gap: 20px;
+        top: 55%;
+        position: absolute;
+        right: 20%;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+  .titulo{
+    color: hsl(271, 36%, 24%);
+  }
+
+  .parrafo{
+    line-height: 1.5;
+    color: #747474ba;
+    font-size: .9rem;
+  }
+
+  /*media query*/
+
+    @media (max-width: 430px) {
+        .fondo-purple{
+            width: 400px;
+            height: 79vh;
+            left: -200px;
+        }
+    
+        .celular{
+            left: 130px;
+        }
+    
+        .texto{
+            top: 135%;
+            right: 10%;
+            width: 300px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 631px) {
+        .fondo-purple{
+            width: 430px;
+            height: 80vh;
+            left: -200px;
+        }
+    
+        .celular{
+            left: 130px;
+        }
+    
+        .texto{
+            top: 135%;
+            right: 10%;
+            width: 300px;
+            text-align: center;
+            margin: 0 50px;
+        }
+    }
+   
+
+    
