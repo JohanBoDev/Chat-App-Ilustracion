@@ -104,8 +104,6 @@ html{
     justify-content: space-around;
     align-items: flex-end;
     padding-bottom: 10px;
-   }
-   
     h3{
         color: white;
         margin-left: 7px;
@@ -127,7 +125,7 @@ html{
        font-size: .4rem;
          color: rgba(255, 255, 255, 0.726);
     }
-   
+   }
 
    .icon{
     width: 13px;
@@ -159,7 +157,7 @@ html{
     flex-direction: column;
  }
 
-.left p{
+p.left{
     font-size: .4rem;
     padding: 5px;
     color: hsla(276, 55%, 52%, 0.826);
@@ -221,7 +219,7 @@ html{
     width: 40%;
 }
 
-.right p{
+p.right{
         font-size: .4rem;
         padding: 5px;
         color: hsla(276, 55%, 52%, 0.826);
