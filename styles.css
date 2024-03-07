@@ -159,7 +159,7 @@ html{
     flex-direction: column;
  }
 
-p.left{
+.left p{
     font-size: .4rem;
     padding: 5px;
     color: hsla(276, 55%, 52%, 0.826);
@@ -222,7 +222,7 @@ p.left{
 }
 
 .right p{
-        font-size: .2rem;
+        font-size: .4rem;
         padding: 5px;
         color: hsla(276, 55%, 52%, 0.826);
 }
