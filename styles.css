@@ -158,7 +158,7 @@ html{
  }
 
 .left p{
-    font-size: .4rem;
+    font-size: .3rem;
     padding: 5px;
     color: hsla(276, 55%, 52%, 0.826);
 }
@@ -220,7 +220,7 @@ html{
 }
 
 .right p{
-        font-size: .4rem;
+        font-size: .3rem;
         padding: 5px;
         color: hsla(276, 55%, 52%, 0.826);
 }
